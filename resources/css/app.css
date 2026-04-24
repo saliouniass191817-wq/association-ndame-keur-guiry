@@ -34,4 +34,5 @@
     .field {
         @apply mt-2 block w-full rounded-2xl border-stone-300 bg-white/90 text-sm text-stone-900 shadow-sm focus:border-amber-500 focus:ring-amber-500;
     }
+    
 }

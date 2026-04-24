@@ -31,5 +31,24 @@
                 {{ $slot }}
             </div>
         </main>
+        
     </body>
+        <footer class="relative mt-16 border-t border-slate-200 bg-white/90">
+        <div class="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 lg:grid-cols-3 lg:px-8">
+            <div>
+                <p class="text-sm font-semibold uppercase tracking-[0.3em] text-amber-600">Ndame Keur Guiry</p>
+                <p class="mt-6 text-sm leading-7 text-slate-600">Une platforme communautaire dédiée au sport, à la culture,à la solidarité et au dévelopment local.</p>
+            </div>
+            <div>
+                <h2 class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-900">Contact</h2>
+                <p class="mt-6 text-sm leading-7 text-slate-600">Rejoiniez l'association pour partager des idées, accompagner nos projets et restez informé.e.</p>
+            </div>
+            <div>
+                 <p class="text-xs mt-2 text-gray-400">
+                © {{ date('Y') }} Tous droits réservés
+        </p>
+            </div>
+        </div>
+    </footer>
+
 </html>

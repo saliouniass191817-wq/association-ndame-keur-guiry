@@ -20,10 +20,10 @@ class DatabaseSeeder extends Seeder
             'last_name' => 'AJNDKK',
             'email' => 'admin@ajndkk.test',
             'role' => 'admin',
-            'sex' => 'homme',
-            'civility' => 'M.',
+            'sex' => 'Homme',
+            'civility' => 'Célibatire',
             'profession' => 'Coordinateur',
-            'age' => 42,
+            'age' => 23,
         ]);
     }
 }

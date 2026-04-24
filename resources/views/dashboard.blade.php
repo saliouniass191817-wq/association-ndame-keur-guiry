@@ -27,7 +27,7 @@
                 </a>
                 <a href="{{ route('project-proposals.index') }}" class="rounded-3xl border border-stone-200 p-5 hover:border-amber-400">
                     <h3 class="font-semibold text-stone-950">Propositions de projets</h3>
-                    <p class="mt-2 text-sm text-stone-600">Partager une initiative avec son impact attendu.</p>
+                    <p class="mt-2 text-sm text-stone-600">Partager une initiative avec l'impact attendu.</p>
                 </a>
             </div>
         </div>
@@ -44,5 +44,7 @@
                 @endif
             </div>
         </div>
+        
     </div>
+
 </x-app-layout>

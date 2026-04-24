@@ -47,7 +47,7 @@
 
     <div x-show="open" x-transition class="border-t border-stone-200 bg-white lg:hidden">
         <div class="shell space-y-3 py-4 text-sm text-stone-700">
-            <a href="{{ route('members.index') }}" class="block">Membres</a>
+            <a href="{{ route('members.index') }}" class="block hover:border-stone-400 text-green-500" >Membres</a>
             <a href="{{ route('public.projects.index') }}" class="block">Projets</a>
             <a href="{{ route('public.events.index') }}" class="block">Evénements</a>
             <a href="{{ route('public.news.index') }}" class="block">Actualités</a>
