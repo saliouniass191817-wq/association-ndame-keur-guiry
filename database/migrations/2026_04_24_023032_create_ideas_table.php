@@ -13,7 +13,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->string('title');
             $table->text('description');
-            $table->enum('status', ['en attente', 'approuvee', 'rejetee'])->default('en attente');
+            $table->enum('status', ['en attente', 'approuvée', 'rejetée'])->default('en attente');
             $table->timestamps();
         });
     }

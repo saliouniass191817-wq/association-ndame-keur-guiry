@@ -9,8 +9,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class ProjectProposal extends Model
 {
     public const STATUS_PENDING = 'en attente';
-    public const STATUS_APPROVED = 'approuvee';
-    public const STATUS_REJECTED = 'rejetee';
+    public const STATUS_APPROVED = 'approuvée';
+    public const STATUS_REJECTED = 'rejetée';
 
     protected $fillable = [
         'user_id',

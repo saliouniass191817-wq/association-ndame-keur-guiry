@@ -14,7 +14,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->text('impact');
-            $table->enum('status', ['en attente', 'approuvee', 'rejetee'])->default('en attente');
+            $table->enum('status', ['en attente', 'approuvée', 'rejetée'])->default('en attente');
             $table->timestamps();
         });
     }
