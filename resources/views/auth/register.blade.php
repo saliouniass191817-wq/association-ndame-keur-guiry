@@ -5,20 +5,20 @@
         <div class="grid gap-5 sm:grid-cols-2">
             <div>
                 <x-input-label for="first_name" value="Prénom" class="text-stone-200" />
-                <input id="first_name" name="first_name" type="text" value="{{ old('first_name') }}" class="field" required autofocus />
+                <x-text-input id="first_name" name="first_name" type="text" value="{{ old('first_name') }}" class="field" required autofocus />
                 <x-input-error :messages="$errors->get('first_name')" class="mt-2" />
             </div>
 
             <div>
                 <x-input-label for="second_name" value="Surnom" class="text-stone-200" />
-                <input id="second_name" name="second_name" type="text" value="{{ old('second_name') }}" class="field" />
+                <x-text-input id="second_name" name="second_name" type="text" value="{{ old('second_name') }}" class="field" />
                 <x-input-error :messages="$errors->get('second_name')" class="mt-2" />
             </div>
         </div>
 
         <div>
             <x-input-label for="last_name" value="Nom" class="text-stone-200" />
-            <input id="last_name" name="last_name" type="text" value="{{ old('last_name') }}" class="field" required />
+            <x-text-input id="last_name" name="last_name" type="text" value="{{ old('last_name') }}" class="field" required />
             <x-input-error :messages="$errors->get('last_name')" class="mt-2" />
         </div>
 
@@ -46,20 +46,20 @@
 
             <div>
                 <x-input-label for="profession" value="Proféssion" class="text-stone-200" />
-                <input id="profession" name="profession" type="text" value="{{ old('profession') }}" class="field" />
+                <inx-text-inputput id="profession" name="profession" type="text" value="{{ old('profession') }}" class="field" />
                 <x-input-error :messages="$errors->get('profession')" class="mt-2" />
             </div>
 
             <div>
                 <x-input-label for="age" value="Age" class="text-stone-200" />
-                <input id="age" name="age" type="number" min="1" max="120" value="{{ old('age') }}" class="field" />
+                <x-text-input id="age" name="age" type="number" min="1" max="120" value="{{ old('age') }}" class="field" />
                 <x-input-error :messages="$errors->get('age')" class="mt-2" />
             </div>
         </div>
 
         <div>
             <x-input-label for="email" value="Email" class="text-stone-200" />
-            <input id="email" name="email" type="email" value="{{ old('email') }}" class="field" required />
+            <x-text-input id="email" name="email" type="email" value="{{ old('email') }}" class="field" required />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
         </div>
 
@@ -71,20 +71,20 @@
 
         <div>
             <x-input-label for="profile_photo" value="Photo de profil" class="text-stone-200" />
-            <input id="profile_photo" name="profile_photo" type="file" class="field" />
+            <x-text-input id="profile_photo" name="profile_photo" type="file" class="field" />
             <x-input-error :messages="$errors->get('profile_photo')" class="mt-2" />
         </div>
 
         <div class="grid gap-5 sm:grid-cols-2">
             <div>
                 <x-input-label for="password" value="Mot de passe" class="text-stone-200" />
-                <input id="password" name="password" type="password" class="field" required />
+                <x-text-input id="password" name="password" type="password" class="field" required />
                 <x-input-error :messages="$errors->get('password')" class="mt-2" />
             </div>
 
             <div>
                 <x-input-label for="password_confirmation" value="Confirmation" class="text-stone-200" />
-                <input id="password_confirmation" name="password_confirmation" type="password" class="field" required />
+                <x-text-input id="password_confirmation" name="password_confirmation" type="password" class="field" required />
                 <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
             </div>
         </div>

@@ -1,16 +1,16 @@
-<nav x-data="{ open: false }" class="border-b border-stone-200/80 bg-white/85 backdrop-blur">
+<nav x-data="{ open: false }" class="border-b border-stone-200/80 bg-green-900 text-blue backdrop-blur">
     <div class="shell flex h-20 items-center justify-between">
         <div class="flex items-center gap-6">
             <a href="{{ route('home') }}" class="flex items-center gap-3">
                 <x-application-logo class="h-10 w-10" />
                 <div>
-                    <div class="headline text-lg font-bold text-stone-950">AJNDKK</div>
+                    <div class="headline text-lg font-bold text-stone-950">AJNDKG</div>
                     <div class="text-xs uppercase tracking-[0.35em] text-stone-500">Association des Jeunes <br> De Ndame Keur Guiry</div>
                 </div>
             </a>
 
             <div class="hidden items-center gap-5 text-sm text-stone-600 lg:flex">
-                <a href="{{ route('members.index') }}" class="hover:text-stone-950">Membres</a>
+                <a href="{{ route('members.index') }}" class="hover:text-stone-950" >Membres</a>
                 <a href="{{ route('public.projects.index') }}" class="hover:text-stone-950">Projets</a>
                 <a href="{{ route('public.events.index') }}" class="hover:text-stone-950">Evénements</a>
                 <a href="{{ route('public.news.index') }}" class="hover:text-stone-950">Actualités</a>
